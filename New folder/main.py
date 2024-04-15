@@ -19,11 +19,11 @@ def main():
     print(f"Area of the circle: {area}")
     print(f"Circumference of the circle: {circumference}")
 
-    # Using custom module to perform calculations
+    # Using custom module to perform math
     result = custom_module.calculate(10, 5)
     print(f"Result of custom calculation: {result}")
 
-    # Using external library to access variable and function
+    # Using the library to access variables and functions
     print(f"Variable from external library: {external_library.external_variable}")
     print(f"Function result from external library: {external_library.external_function()}")
 
